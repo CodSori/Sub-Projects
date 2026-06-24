@@ -4,9 +4,9 @@
 Build a low-cost, technical portfolio that demonstrates developing competence in:
 - Protection & Control (primary focus)
 - Substation design literacy (adjacent competency)
-- Field/utility realization and troubleshooting (practical competency)
+- Field/utility realization and troubleshooting (secondary adjacent competency)
 
-This portfolio is meant to show disciplined technical growth, structured reasoning, and tangible evidence of my building competence within power delivery P&C.
+This portfolio is meant to show disciplined technical growth, structured reasoning, and tangible evidence of my building competence within power delivery P&C. A second competency goal is the development of modelling skills through Excel, MATLAB, and other software as I discover new platforms to model with. 
 
 ## Project Design Principles
 - Keep scope narrow and technically credible.
@@ -14,6 +14,7 @@ This portfolio is meant to show disciplined technical growth, structured reasoni
 - Show logic, traceability, and engineering judgment.
 - Use free or already-available tools whenever possible.
 - Create deliverables that can be discussed with others as either learning tools or proof of competency.
+- List all software used in relevant models with the goal being transparency.
 
 ## Final Portfolio Structure
 The portfolio will have five sections.
@@ -39,10 +40,9 @@ A simplified arrangement such as:
 - DC battery/control power source
 - trip path destination
 
----
 
 ### Section 2: Breaker Control and Protection Logic
-Purpose: Demonstrate P&C-centered reasoning through a simplified but realistic trip/close control package.
+Purpose: Demonstrate P&C-centered reasoning through a simplified and realistic trip/close control scheme.
 
 #### Deliverables
 1. Simplified DC control schematic for breaker trip/close logic.
@@ -74,7 +74,6 @@ Explain normal behavior and abnormal behavior, such as:
 - blocked close condition
 - loss of control power effect
 
----
 
 ### Section 3: Print Tracing and Document Interpretation
 Purpose: Show proficiency at reading prints methodically.
@@ -94,10 +93,9 @@ For each print, answer:
 5. What assumptions would need field verification?
 6. What are likely failure points or confusion points?
 
----
 
 ### Section 4: Troubleshooting and Field Realization Casebook
-Purpose: Demonstrate practical engineering thinking based on commissioning, testing, isolation, and malfunction diagnosis.
+Purpose: Demonstrate engineering mindset focused on commissioning, testing, isolation, and malfunction diagnosis.
 
 #### Deliverables
 Create 4 troubleshooting case studies. Each should be 1–2 pages.
@@ -114,19 +112,18 @@ For each case, include:
 8. Corrective action
 9. Lessons learned
 
-#### Possible case topics
-Use realistic cases such as:
+#### Case topics
+Realistic cases might be:
 1. Breaker fails to close after command
 2. Protective relay issues trip output but breaker does not trip
 3. Lockout relay operates and blocks reclosing/closing
 4. Low control voltage causes unreliable motor or control operation
 
-#### Optional fifth case
+#### Optional fifth case (What happens when...)
 - mismatch between print expectation and field condition
-- stale drawing revision vs actual installation
+- old drawing revision vs actual installation
 - isolation point misunderstood during troubleshooting
 
----
 
 ### Section 5: Simple Simulation and Logic Validation
 Purpose: Add a lightweight analytical element without expensive software.
@@ -150,9 +147,8 @@ Create:
 - simple timing/event sequence table
 
 ##### Option C: Both
-Use Excel for logic tables and MATLAB for state transitions.
+Excel for logic tables and MATLAB for state transitions.
 
----
 
 ## Deliverable Sequence
 Plan for building hypothetical substation layout:
